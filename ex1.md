@@ -9,6 +9,7 @@ Create prompts that produce structured machine-readable output.
 **Prompt:** "List three cities with their populations."
 
 **Output Format:** Free text
+
 **Example Response:** 
 ```
 Paris has about 2.1 million people, Tokyo around 14 million, and New York roughly 8.3 million.
@@ -23,6 +24,7 @@ Paris has about 2.1 million people, Tokyo around 14 million, and New York roughl
 **Prompt:** "Return the following in JSON format: [{"city": string, "population": number}]. List three cities with their populations."
 
 **Output Format:** Valid JSON array
+
 **Example Response:**
 ```json
 [
